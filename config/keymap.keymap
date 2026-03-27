@@ -33,7 +33,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &lt 0 SPACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &lt 0 SPACE  &mo 4   &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -54,6 +54,16 @@
 &trans         &kp LC(A)  &kp LC(S)       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)      &trans  &trans  &trans  &mkp RCLK  &trans     &trans     &trans   &trans
 &trans         &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(B)      &trans  &trans  &trans  &trans     &trans     &trans     &trans   &trans
 &trans         &trans     &trans          &trans          &trans           &lt 3 SPACE    &trans  &trans  &trans  &trans     &trans     &trans     &trans   &trans
+            >;
+        };
+
+        scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
