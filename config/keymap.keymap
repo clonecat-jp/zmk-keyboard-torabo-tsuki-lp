@@ -59,21 +59,21 @@
 
         mac-scroll {
             bindings = <
-&trans                &trans     &trans     &trans     &trans         &trans                              &trans  &trans  &trans  &trans        &trans  &trans
-&kp LS(LG(NUMBER_2))  &kp LG(Q)  &trans     &trans     &kp LG(SLASH)  &kp LS(LG(F))                       &trans  &trans  &trans  &trans        &trans  &trans
-&trans                &kp LG(A)  &kp LG(S)  &trans     &trans         &kp LG(F)      &trans       &trans  &trans  &trans  &trans  &trans        &trans  &trans
-&trans                &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)      &kp LG(B)      &kp M        &trans  &trans  &trans  &trans  &trans        &trans  &trans
-&trans                &trans     &trans     &trans     &trans         &lt 2 SPACE    &lt 4 LANG1  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans
+&trans                &trans     &trans     &trans     &trans         &trans                              &trans  &trans     &trans     &trans        &trans  &trans
+&kp LS(LG(NUMBER_2))  &kp LG(Q)  &trans     &trans     &kp LG(SLASH)  &kp LS(LG(F))                       &trans  &trans     &mkp MCLK  &mkp RCLK     &trans  &trans
+&trans                &kp LG(A)  &kp LG(S)  &trans     &trans         &kp LG(F)      &trans       &trans  &trans  &mkp LCLK  &trans     &trans        &trans  &trans
+&trans                &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)      &kp LG(B)      &kp M        &trans  &trans  &trans     &trans     &trans        &trans  &trans
+&trans                &trans     &trans     &trans     &trans         &lt 2 SPACE    &lt 4 LANG1  &trans  &trans  &trans     &trans     &bt BT_SEL 1  &trans  &trans
             >;
         };
 
         win-scroll {
             bindings = <
-&trans         &trans     &trans     &trans     &trans         &trans                              &trans  &trans  &trans  &trans        &trans  &trans
-&kp LG(LS(S))  &kp LC(Q)  &trans     &trans     &kp LG(SLASH)  &kp LS(LG(F))                       &trans  &trans  &trans  &trans        &trans  &trans
-&trans         &kp LC(A)  &kp LC(S)  &trans     &trans         &kp LG(F)      &trans       &trans  &trans  &trans  &trans  &trans        &trans  &trans
-&trans         &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(B)      &kp W        &trans  &trans  &trans  &trans  &trans        &trans  &trans
-&trans         &trans     &trans     &trans     &trans         &lt 3 SPACE    &lt 5 LANG1  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans
+&trans         &trans     &trans     &trans     &trans         &trans                              &trans  &trans     &trans     &trans        &trans  &trans
+&kp LG(LS(S))  &kp LC(Q)  &trans     &trans     &kp LG(SLASH)  &kp LS(LG(F))                       &trans  &trans     &mkp MCLK  &mkp RCLK     &trans  &trans
+&trans         &kp LC(A)  &kp LC(S)  &trans     &trans         &kp LG(F)      &trans       &trans  &trans  &mkp LCLK  &trans     &trans        &trans  &trans
+&trans         &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(B)      &kp W        &trans  &trans  &trans     &trans     &trans        &trans  &trans
+&trans         &trans     &trans     &trans     &trans         &lt 3 SPACE    &lt 5 LANG1  &trans  &trans  &trans     &trans     &bt BT_SEL 1  &trans  &trans
             >;
         };
     };
